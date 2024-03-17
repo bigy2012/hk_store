@@ -17,13 +17,15 @@ export default function Navbar() {
             className="text-md mx-3 font-medium text-white hover:text-yellow-200 hover:border-b-2 hover:border-b-yellow-200"
             href="/"
           >
-            <span class="material-symbols-outlined">home</span>
+            Home
           </Link>
+        </div>
+        <div className="flex items-center align-top">
           <Link
             className="text-md mx-3 font-medium text-white hover:text-yellow-200 hover:border-b-2 hover:border-b-yellow-200"
-            href="/products"
+            href="/profile"
           >
-            <span class="material-symbols-outlined">inventory_2</span>
+            <span class="material-symbols-outlined">person</span>
           </Link>
           <Link
             className="text-md mx-3 font-medium text-white hover:text-yellow-200 hover:border-b-2 hover:border-b-yellow-200"
