@@ -12,12 +12,14 @@ export default function ExProduct() {
           laborum incididunt adipisicing anim ad est consequat consequat eu
           officia nisi cillum nostrud.
         </h1>
-        <button
-          type="button"
-          className="py-3 px-10 hover:opacity-[80%] bg-black text-white font-medium rounded-full"
-        >
-          Explore
-        </button>
+        <div className="sm:flex sm:justify-center lg:justify-start">
+          <button
+            type="button"
+            className="py-3 px-10 hover:opacity-[80%] bg-black text-white font-medium rounded-full"
+          >
+            Explore
+          </button>
+        </div>
       </div>
       <div className="lg:w-[25%] sm:w-full sm:mb-36 lg:mx-5">
         <Link href="/Product/1">

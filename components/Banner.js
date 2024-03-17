@@ -13,7 +13,7 @@ export default function Banner() {
             ever.
           </span>
         </h1>
-        <div className="mt-5 sm:w-100">
+        <div className="mt-5 sm:w-100 sm:flex sm:justify-center lg:justify-start">
           <button
             type="button"
             className="py-3 px-8 bg-yellow-400 text-black font-medium rounded-full hover:bg-yellow-300"

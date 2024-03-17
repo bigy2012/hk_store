@@ -12,8 +12,8 @@ export default function ChooseUs() {
           </h1>
         </div>
 
-        <div className="flex justify-between mt-12">
-          <div className="w-[50%]">
+        <div className="lg:flex lg:justify-between mt-12">
+          <div className="lg:w-[50%]">
             <span class="material-symbols-outlined">local_shipping</span>
             <h3 className="font-bold">Fast & Free Shipping</h3>
             <div className="w-[80%] mt-3">
@@ -24,7 +24,7 @@ export default function ChooseUs() {
               </h3>
             </div>
           </div>
-          <div className="w-[50%]">
+          <div className="lg:w-[50%]">
             <span class="material-symbols-outlined">shopping_bag</span>
             <h3 className="font-bold">Easy to Shop</h3>
             <div className="w-[80%] mt-3">
@@ -36,8 +36,8 @@ export default function ChooseUs() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between mt-12">
-          <div className="w-[50%]">
+        <div className="lg:flex lg:justify-between mt-12">
+          <div className="lg:w-[50%]">
             <span class="material-symbols-outlined">support</span>
             <h3 className="font-bold">24/7 Support</h3>
             <div className="w-[80%] mt-3">
@@ -48,7 +48,7 @@ export default function ChooseUs() {
               </h3>
             </div>
           </div>
-          <div className="w-[50%]">
+          <div className="lg:w-[50%] mt-12">
             <span class="material-symbols-outlined">cached</span>
             <h3 className="font-bold">Hassle Free Refund</h3>
             <div className="w-[80%] mt-3">
@@ -61,7 +61,7 @@ export default function ChooseUs() {
           </div>
         </div>
       </div>
-      <div className="lg:w-50 sm:w-full flex justify-center">
+      <div className="lg:w-50 sm:w-full flex justify-center mt-12">
         <Image src="/sofa/room.png" width={500} height={500} className="rounded-2xl" />
       </div>
     </div>
